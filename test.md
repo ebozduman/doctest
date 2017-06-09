@@ -78,19 +78,22 @@ Clone and start doctor
 > git clone https://github.com/minio/doctor.git
 > cd doctor
 > bundle install
-    **Note** -
-    On Ubuntu vanilla installations, `bundle install` may not go through smoothly.
-    In that case, you may need to run the following command:
-      > sudo apt install libpg-dev
+```
+**Note** -
+On Ubuntu vanilla installations, `bundle install` may not go through smoothly.
+In that case, you may need to run `sudo apt install libpg-dev`
 
-      If you get error message: `Gem Load Error is: Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes.`,
-      run: `sudo apt-get install nodejs`
-
-> rake db:drop
+If you get error message: `Gem Load Error is: Could not find a JavaScript runtime. See ```https://github.com/rails/execjs for a list of available runtimes.`,
+run: `sudo apt-get install nodejs`
+```
+> ```
+ke db:drop
 > rake db:setup
-    **Note** -
-      If you see error: `ActiveRecord::NoDatabaseError: FATAL:  role <your_user_name> does not exist`,
-      run command: `sudo -u postgres createuser --superuser <your_user_name>`
+```
+**Note** -
+  If you see error: `ActiveRecord::NoDatabaseError: FATAL:  role <your_user_name> does not exist`,
+  run : `sudo -u postgres createuser --superuser <your_user_name>`
+```
 > rails s
 ```
 Now visit http://localhost:3000
