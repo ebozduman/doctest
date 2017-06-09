@@ -89,7 +89,7 @@ Use `sysadmin@doctor.io` with password `Doctor!23` to login. Visit [http://local
 
 **Note** -
 * On Ubuntu vanilla installations, `bundle install` sometimes may not go through smoothly. In that case, you may need to run `sudo apt install libpg-dev`
-* If you get error message: `Gem Load Error is: Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes` during `bundle install`,
+* If you get error message: `Gem Load Error is: Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes.`, during `bundle install`,
 then run `sudo apt-get install nodejs`
 * If you see error: `ActiveRecord::NoDatabaseError: FATAL:  role <your_user_name> does not exist` during `rake:db setup`, then run: `sudo -u postgres createuser --superuser <your_user_name>`
 * Ping us on our [gitter channel](https://gitter.im/minio/minio) to report any installation issues on your platform.
