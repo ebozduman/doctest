@@ -80,19 +80,19 @@ Clone and start doctor
 > bundle install
 ```
 **Note** -
-On Ubuntu vanilla installations, `bundle install` may not go through smoothly.
-In that case, you may need to run `sudo apt install libpg-dev`
+On Ubuntu vanilla installations, `bundle install` sometimes may not go through smoothly. In that case, you may need to run
+`sudo apt install libpg-dev`
 
-If you get error message: `Gem Load Error is: Could not find a JavaScript runtime. See ```https://github.com/rails/execjs for a list of available runtimes.`,
-run: `sudo apt-get install nodejs`
+If you get error message: `Gem Load Error is: Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes.`, run
+`sudo apt-get install nodejs`
 ```
-> ```
-ke db:drop
+> rake db:drop
 > rake db:setup
 ```
 **Note** -
   If you see error: `ActiveRecord::NoDatabaseError: FATAL:  role <your_user_name> does not exist`,
-  run : `sudo -u postgres createuser --superuser <your_user_name>`
+  run : 
+  `sudo -u postgres createuser --superuser <your_user_name>`
 ```
 > rails s
 ```
