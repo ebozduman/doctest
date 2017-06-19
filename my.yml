@@ -1,3 +1,5 @@
+destination: docs
+
 Minio Server:
   - title: "Minio Server Quickstart Guide"
     link: https://raw.githubusercontent.com/minio/minio/master/README.md
