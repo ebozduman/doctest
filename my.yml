@@ -1,5 +1,4 @@
 destination: docs
-
 docs:
   - Minio Server:
     - title: Minio Server Quickstart Guide
