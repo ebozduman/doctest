@@ -1,4 +1,4 @@
-destination: 'docs'
+destination: \'docs\'
 
 docs:
   Minio Server:
